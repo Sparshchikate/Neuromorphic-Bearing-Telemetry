@@ -1,4 +1,4 @@
-# Adaptive Event-Driven Neuromorphic Telemetry
+﻿# Adaptive Event-Driven Neuromorphic Telemetry
 
 Official implementation of **"Adaptive Event-Driven Neuromorphic Telemetry: Energy-Sparse Spiking Neural Networks with Dynamic Threshold Encoding for Industrial Bearing Diagnostics"** (IC-AIDSA 2026).
 
@@ -24,10 +24,10 @@ The framework couples a causal dynamic-threshold delta modulator with a 2-layer 
 
 | Architecture | Mean Accuracy | Synaptic Sparsity | Est. Inference Energy | Battery Autonomy Model |
 | :--- | :---: | :---: | :---: | :---: |
-| Standard 1D-CNN | $99.35\% \pm 0.11\%$ | $0.0\%$ | $14.80\ \mu\text{J}$ | ~17.5 days (raw stream) |
-| Quantized 8-Bit CNN | $97.48\% \pm 0.18\%$ | $0.0\%$ | $3.92\ \mu\text{J}$ | ~75 days (duty-cycled) |
-| Feedforward SNN | $94.60\% \pm 0.32\%$ | $78.4\%$ | $0.91\ \mu\text{J}$ | — |
-| **Proposed Adaptive rLIF** | **$99.12\% \pm 0.14\%$** | **$98.73\%$** | **$0.48\ \mu\text{J}$** | **3.40 yrs (analytical proj.)** |
+| Standard 1D-CNN | 99.35% ± 0.11% | 0.0% | 14.80 µJ | ~17.5 days (raw stream) |
+| Quantized 8-Bit CNN | 97.48% ± 0.18% | 0.0% | 3.92 µJ | ~75 days (duty-cycled) |
+| Feedforward SNN | 94.60% ± 0.32% | 78.4% | 0.91 µJ | â€” |
+| **Proposed Adaptive rLIF** | **99.12% ± 0.14%** | **98.73%** | **0.48 µJ** | **3.40 yrs (analytical proj.)** |
 
 ## Usage
 
